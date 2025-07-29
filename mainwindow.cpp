@@ -12,7 +12,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
     // Fondo
     this->setStyleSheet("background-color: #f5e6d3;");
-
+    
     // Estilo para botones
     QString estiloBotones = "QPushButton {"
                             "  background-color: #D8B7DD;"
@@ -265,4 +265,3 @@ void MainWindow::on_btnBuscarfactura_clicked()
 //void MainWindow::on_editNombre_textChanged(const QString &arg1){}
 //void MainWindow::on_editCedula_textChanged(const QString &arg1){}
 //void MainWindow::on_editDireccion_textChanged(const QString &arg1){}
-
